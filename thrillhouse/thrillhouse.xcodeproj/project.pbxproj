@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B41F388420ABB98C00307B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F388320ABB98C00307B34 /* AppDelegate.swift */; };
-		B41F388620ABB98C00307B34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F388520ABB98C00307B34 /* ViewController.swift */; };
+		B41F388620ABB98C00307B34 /* ThrillhousePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F388520ABB98C00307B34 /* ThrillhousePlayerViewController.swift */; };
 		B41F388920ABB98C00307B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41F388720ABB98C00307B34 /* Main.storyboard */; };
 		B41F388B20ABB99200307B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B41F388A20ABB99200307B34 /* Assets.xcassets */; };
 		B41F388E20ABB99200307B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B41F388C20ABB99200307B34 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		B41F388020ABB98C00307B34 /* thrillhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thrillhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B41F388320ABB98C00307B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B41F388520ABB98C00307B34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B41F388520ABB98C00307B34 /* ThrillhousePlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrillhousePlayerViewController.swift; sourceTree = "<group>"; };
 		B41F388820ABB98C00307B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B41F388A20ABB99200307B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B41F388D20ABB99200307B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				B41F388320ABB98C00307B34 /* AppDelegate.swift */,
-				B41F388520ABB98C00307B34 /* ViewController.swift */,
+				B41F388520ABB98C00307B34 /* ThrillhousePlayerViewController.swift */,
 				B41F388720ABB98C00307B34 /* Main.storyboard */,
 				B41F388A20ABB99200307B34 /* Assets.xcassets */,
 				B41F388C20ABB99200307B34 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41F388620ABB98C00307B34 /* ViewController.swift in Sources */,
+				B41F388620ABB98C00307B34 /* ThrillhousePlayerViewController.swift in Sources */,
 				B41F388420ABB98C00307B34 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
