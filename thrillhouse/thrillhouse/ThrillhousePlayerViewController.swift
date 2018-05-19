@@ -15,7 +15,10 @@ class ThrillhousePlayerViewController: AVPlayerViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // set up AVPlayer to stream music from Thrillhouse Radio
+        guard let thrillhouseURL = URL(string: "http://www.thrillhouserad.io:80/live") else { return }
+        let thrillhousePlayer = AVPlayer(url: thrillhouseURL)
+        player = thrillhousePlayer
     }
 }
-
